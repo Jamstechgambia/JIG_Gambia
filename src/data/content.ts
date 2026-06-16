@@ -186,7 +186,7 @@ export const team: TeamMember[] = [
     name: "Abubacarr Jasseh",
     position: "CEO",
     phone: "+220 267 6120",
-    image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/6028466086249958345-1.jpg",
     recentSales: 0,
   },
   {
@@ -194,7 +194,7 @@ export const team: TeamMember[] = [
     name: "Momodou Korka Bah",
     position: "General Manager",
     phone: "+220 382 5002",
-    image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/6028466086249958346-1-1.jpg",
     recentSales: 0,
   },
   {
@@ -202,7 +202,7 @@ export const team: TeamMember[] = [
     name: "Momodou M Sarr",
     position: "Marketing Manager",
     phone: "+220 771 8227",
-    image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/6028466086249958347-1.jpg",
     recentSales: 0,
   },
   {
