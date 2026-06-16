@@ -73,13 +73,13 @@ export default function Header() {
         <div className="container-custom">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-3 group">
-              <div className="w-12 h-12 bg-primary-500 rounded-xl flex items-center justify-center text-white font-bold text-xl group-hover:bg-primary-600 transition-colors">
-                JIG
-              </div>
-              <div className={`hidden sm:block transition-colors ${isTransparent ? 'text-white' : 'text-gray-900'}`}>
-                <span className="font-heading font-bold text-xl block">JIG Gambia</span>
-                <span className="text-xs opacity-70">Real Estate Excellence</span>
+            <Link to="/" className="flex items-center group">
+              <div className={`rounded-xl overflow-hidden transition-all duration-300 ${isTransparent ? 'bg-white/90 shadow-lg px-3 py-1.5' : 'px-0 py-0'}`}>
+                <img
+                  src="/ChatGPT_Image_Jun_16,_2026,_09_37_32_AM.png"
+                  alt="Jasseh Investment Group Real Estate"
+                  className="h-10 w-auto"
+                />
               </div>
             </Link>
 
