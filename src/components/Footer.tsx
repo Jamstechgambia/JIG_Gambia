@@ -141,7 +141,15 @@ export default function Footer() {
             </a>
           </div>
           <p className="text-sm text-gray-400">
-            Web Design: INFITECH
+            Designed by{' '}
+            <a
+              href="https://jamstechdev.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary-500 transition-colors"
+            >
+              Jamstech
+            </a>
           </p>
         </div>
       </div>
