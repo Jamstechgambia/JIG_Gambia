@@ -28,13 +28,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <div className="mb-6">
-              <div className="bg-white rounded-xl px-4 py-2 inline-block">
-                <img
-                  src="/ChatGPT_Image_Jun_16,_2026,_09_37_32_AM.png"
-                  alt="Jasseh Investment Group Real Estate"
-                  className="h-12 w-auto"
-                />
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-12 h-12 bg-primary-500 rounded-xl flex items-center justify-center text-white font-bold text-xl">
+                JIG
+              </div>
+              <div>
+                <span className="font-heading font-bold text-xl block">JIG Gambia</span>
+                <span className="text-xs text-gray-400">Real Estate Excellence</span>
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-6 leading-relaxed">
